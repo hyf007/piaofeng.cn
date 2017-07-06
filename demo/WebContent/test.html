@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script>
+$(document).ready(function(){
+	alert("99")
+    $.ajax({
+		url : "/ShoppingServlet",
+		type : "post",
+		dataType : "json",
+		success : function(json){
+			var pr
+			for(var i = 0 ; i < json.length ; i++){
+				 pr = json[i];
+			     //alert( pr.className)
+			}
+			alert( pr.mm)
+
+		}		
+	});
+})
+
+</script>
+</head>
+<body>
+服务器
+</body>
+</html>
