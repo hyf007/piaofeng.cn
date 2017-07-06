@@ -43,6 +43,7 @@ public class ShoppingServlet extends HttpServlet {
               map.put("3", "c相纸");
               map.put("4", "d相纸");
               map.put("5", "e相纸");
+			  map.put("6", "f相纸");
 	   		  List list=new ArrayList();
 	   		  list.add(map);
 		     response.setCharacterEncoding("UTF-8");
