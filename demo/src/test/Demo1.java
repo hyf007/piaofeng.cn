@@ -7,7 +7,8 @@ public class Demo1 {
 		//SingleObject.getInstance().showMessage();
 		 Image image = new ProxyImage("test_10mb.jpg");
 		 image.display();
-		 image.display(); 	
+		 image.display(); 
+syso		 
 		
 	}
 }
